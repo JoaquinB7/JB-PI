@@ -1,0 +1,9 @@
+div{
+    background-color: rgb(49, 49, 49);
+    background-image: url(../../../assets/BGLight.jpeg);
+}
+
+app-socialmedia {
+    float:right;
+    margin-top: 0.1em;
+}
