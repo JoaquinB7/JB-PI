@@ -72,7 +72,7 @@
       }
 
  }
- @media (max-width:1000px) {
+ @media (min-width:576px),(max-width:700px) {
    .works__img {
       left: -50px;
    }
@@ -117,3 +117,8 @@
    align-items: center;
  }
 
+ @media (min-width: 900px){
+   .works__img{
+      left:0;
+   }
+ }
