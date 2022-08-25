@@ -25,10 +25,17 @@
     opacity: 1;
  }
 
+ h3{
+   margin-left: 25px;
+ }
+
  .services {
     margin-bottom: 4em;
  }
 
+ ::marker {
+   color: white;
+}
  /*.service {
     padding-left: 5em;
  }*/
@@ -45,14 +52,17 @@
       }
 
       p {
+         padding-top: 1em;
          padding-left: 0.5em;
       }
       .works__img {
          display: inline block;
          grid-area: img;
-         left: 8px;
+         left: 12px;
          border-radius: 15%;
          max-width: 125px;
+         min-height: 100px;
+         max-height: 125px;
          margin-top: 0.25em;
          margin-right: 0.25em;
          position: relative;
@@ -61,6 +71,11 @@
 
       }
 
+ }
+ @media (max-width:1000px) {
+   .works__img {
+      left: -50px;
+   }
  }
 
  @media (max-width: 575px) {
@@ -80,7 +95,7 @@
        grid-area: img;
        left: 8px;
        border-radius: 15%;
-       max-width: 125px;
+       max-width: 100px;
        margin-top: 0.25em;
        margin-bottom: 0.25em;
        margin-right: 0.25em;
@@ -91,7 +106,9 @@
    }
 
    p {
-      text-align: right;
+      text-align: left;
+      margin-top: 0.5em;
+      ;
    }
 
 }
