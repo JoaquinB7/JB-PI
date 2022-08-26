@@ -1,4 +1,23 @@
 #logoAP {
     width: 150px;
-    margin-bottom: -0.25em;
+    background-color: black;
+    margin-bottom: -2px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img {
+    width: 30px;
+    margin-right: 0.1em;
+    opacity: 1;
+}
+
+.botones{
+    padding-right: 5px;
+}
+
+#bsocial {
+    margin-right: 2px;
 }

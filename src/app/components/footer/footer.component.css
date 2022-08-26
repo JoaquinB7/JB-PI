@@ -1,0 +1,19 @@
+.row{
+    background: black;
+}
+
+footer{
+    padding-top: 10em;
+    color: whitesmoke;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+img {
+    margin-bottom: 2%;
+    width: 30px;
+    margin-right: 0.25em;
+    opacity: 0.75;
+}

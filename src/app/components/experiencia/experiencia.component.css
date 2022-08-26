@@ -1,11 +1,11 @@
 .experience {
-    width: 100%;
-    background-color: var(--clr-dark);
+   background-image: url(../../../assets/Banner.jpg);
+    background-color: rgba(0, 0, 0, 0.726);
     background-size: cover;
     background-blend-mode: multiply;
-    color: var(--clr-superlight);
+    color: whitesmoke;
     text-align: left;
-    margin-left: 20px;
+    margin-left: 0;
     padding: 3em;
 
  }
@@ -24,9 +24,12 @@
     background: var(--clr-light);
     opacity: 1;
  }
+ h2{
+   margin-left: 6%;
+ }
 
  h3{
-   margin-left: 25px;
+   margin-left: 15px;
  }
 
  .services {
@@ -34,12 +37,15 @@
  }
 
  ::marker {
-   color: white;
+   color: black;
 }
  /*.service {
     padding-left: 5em;
  }*/
 
+ .works__img{
+   background-color: white;
+ }
  @media (min-width: 576px) {
     .services {
         display: block;
@@ -64,7 +70,7 @@
          min-height: 100px;
          max-height: 125px;
          margin-top: 0.25em;
-         margin-right: 0.25em;
+         margin-right: 0.5em;
          position: relative;
          z-index: 0;
          opacity: 0.75;
@@ -74,7 +80,7 @@
  }
  @media (min-width:576px),(max-width:700px) {
    .works__img {
-      left: -50px;
+      left: -68px;
    }
  }
 
@@ -98,7 +104,7 @@
        max-width: 100px;
        margin-top: 0.25em;
        margin-bottom: 0.25em;
-       margin-right: 0.25em;
+       margin-right: 1em;
        position: relative;
        z-index: 0;
        opacity: 0.75;
@@ -119,6 +125,6 @@
 
  @media (min-width: 900px){
    .works__img{
-      left:0;
+      left:-15px;
    }
  }

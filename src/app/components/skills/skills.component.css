@@ -1,3 +1,15 @@
 .row{
+    background-color: black;
+    color: whitesmoke;
     padding: 20px;
+}
+
+h4{
+    font-weight: lighter;
+}
+
+#hystitle {
+    text-decoration: none;
+    margin-top: -4em;
+    margin-bottom: 10px;
 }
