@@ -1,8 +1,9 @@
 .experience {
-   background-image: url(../../../assets/Banner.jpg);
-    background-color: rgba(0, 0, 0, 0.726);
-    background-size: cover;
-    background-blend-mode: multiply;
+    background-image: url(../../../assets/bgexperiencia.jpg);
+    background-repeat:round;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size:contain;
+    background-blend-mode:multiply;
     color: whitesmoke;
     text-align: left;
     margin-left: 0;
@@ -47,6 +48,14 @@
    background-color: white;
  }
  @media (min-width: 576px) {
+   .experience {
+      background-image: url(../../../assets/bgexperiencia.jpg);
+      background-repeat:round;
+      background-color: rgba(0, 0, 0, 0.5);
+      background-size:cover;
+      background-blend-mode:multiply;
+      
+   }
     .services {
         display: block;
         max-width: 90%;
@@ -79,6 +88,13 @@
 
  }
  @media (min-width:576px),(max-width:700px) {
+   .experience {
+      background-image: url(../../../assets/bgexperiencia.jpg);
+      background-repeat:round;
+      background-color: rgba(0, 0, 0, 0.5);
+      background-size:cover;
+      background-blend-mode:multiply;
+   }
    .works__img {
       left: -68px;
    }
@@ -86,6 +102,13 @@
 
  @media (max-width: 575px) {
 
+   .experience {
+      background-image: url(../../../assets/bgexperiencia.jpg);
+      background-repeat:round;
+      background-color: rgba(0, 0, 0, 0.5);
+      background-size:cover;
+      background-blend-mode:multiply;
+   }
    .services {
        display: block;
        max-width: 90%;
