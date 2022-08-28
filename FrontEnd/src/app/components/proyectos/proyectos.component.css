@@ -1,0 +1,153 @@
+.experience {
+    background-image: url(../../../assets/bgexperiencia.jpg);
+    background-repeat:round;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size:contain;
+    background-blend-mode:multiply;
+    color: whitesmoke;
+    text-align: left;
+    margin-left: 0;
+    padding: 3em;
+
+ }
+ .section__tittle--experience {
+    color: var(--clr-accent);
+    position: relative;
+    margin-left: 20px;
+ }
+
+ .section__tittle--experience::after {
+    content: '';
+    display:block;
+    width: 2em;
+    height: 1px;
+    margin: 0.5em auto 1em;
+    background: var(--clr-light);
+    opacity: 1;
+ }
+ h2{
+   margin-left: 6%;
+ }
+
+ h3{
+   margin-left: 15px;
+ }
+
+ .services {
+    margin-bottom: 4em;
+ }
+
+ ::marker {
+   color: black;
+}
+ /*.service {
+    padding-left: 5em;
+ }*/
+
+ .works__img{
+   background-color: white;
+ }
+ @media (min-width: 576px) {
+   .experience {
+      background-image: url(../../../assets/bgexperiencia.jpg);
+      background-repeat:round;
+      background-color: rgba(0, 0, 0, 0.5);
+      background-size:cover;
+      background-blend-mode:multiply;
+      
+   }
+    .services {
+        display: block;
+        max-width: 90%;
+       /* margin: 0 auto; */
+      }
+
+      li + li {
+         margin-top: 2em;
+      }
+
+      p {
+         padding-top: 1em;
+         padding-left: 0.5em;
+      }
+      .works__img {
+         display: inline block;
+         grid-area: img;
+         left: 12px;
+         border-radius: 15%;
+         max-width: 125px;
+         min-height: 100px;
+         max-height: 125px;
+         margin-top: 0.25em;
+         margin-right: 0.5em;
+         position: relative;
+         z-index: 0;
+         opacity: 0.75;
+
+      }
+
+ }
+ @media (min-width:576px),(max-width:700px) {
+   .experience {
+      background-image: url(../../../assets/bgexperiencia.jpg);
+      background-repeat:round;
+      background-color: rgba(0, 0, 0, 0.5);
+      background-size:cover;
+      background-blend-mode:multiply;
+   }
+   .works__img {
+      left: -68px;
+   }
+ }
+
+ @media (max-width: 575px) {
+
+   .experience {
+      background-image: url(../../../assets/bgexperiencia.jpg);
+      background-repeat:round;
+      background-color: rgba(0, 0, 0, 0.5);
+      background-size:cover;
+      background-blend-mode:multiply;
+   }
+   .services {
+       display: block;
+       max-width: 90%;
+      /* margin: 0 auto; */
+   }
+
+     li + li {
+        margin-top: 0;
+     }
+
+   .works__img {
+       display: inline block;
+       grid-area: img;
+       left: 8px;
+       border-radius: 15%;
+       max-width: 100px;
+       margin-top: 0.25em;
+       margin-bottom: 0.25em;
+       margin-right: 1em;
+       position: relative;
+       z-index: 0;
+       opacity: 0.75;
+
+   }
+
+   p {
+      text-align: left;
+      margin-top: 0.5em;
+      ;
+   }
+
+}
+
+ .row {
+   align-items: center;
+ }
+
+ @media (min-width: 900px){
+   .works__img{
+      left:-15px;
+   }
+ }

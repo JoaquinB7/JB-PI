@@ -8,11 +8,11 @@
 		<version>2.6.7</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.portfolioweb</groupId>
-	<artifactId>jb</artifactId>
+	<groupId>com.portfoliojb3</groupId>
+	<artifactId>JB3</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>jb</name>
-	<description>Portfolio Web JB</description>
+	<name>JB3</name>
+	<description>Portfolio JB</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
@@ -51,16 +51,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-                <dependency>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-starter-security</artifactId>
-                </dependency>
-                <dependency>
-                    <groupId>io.jsonwebtoken</groupId>
-                    <artifactId>jjwt</artifactId>
-                    <version>0.9.1</version>
-                </dependency>
-
 	</dependencies>
 
 	<build>
